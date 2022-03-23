@@ -16,8 +16,6 @@ const { loading, error, data } = useQuery(OBTENER_TIENDAS);
 
 if (loading) return null
 
-console.log(data.tiendas);
-console.log(data.estados);
   return (
 		<Layout>
 			<SeoComponent

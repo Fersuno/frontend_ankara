@@ -2,7 +2,20 @@
 
 const HeadingTienda = ({estado}) => {
 
-	console.log(estado)
+	const estado = [
+    {
+      author: "Walter White",
+    },
+    {
+      author: "Saul Goodman",
+    },
+    {
+      author: "Walter White",
+    },
+    {
+      author: "Hank Schrader",
+    },
+  ];
   return (
 		<>
 			{estado.length >= 2 ? (
